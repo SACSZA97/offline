@@ -1,0 +1,34 @@
+{
+    "name": "Mi PWA Offline",
+    "short_name": "PWA Offline",
+    "description": "Una Applicacion web progresiva que funciona sin conexion",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#07bbff",
+    "orientation": "portrait",
+    "icons":[
+        {
+            "src": "./images/icon-128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "./images/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ],
+    "screenshots":[
+        {
+            "src": "./images/screenshot1.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "form_factor": "wide"
+        }
+    ],
+    "categories":["productitvity", "utilities"],
+    "display_override": ["standalone", "fullscreen", "minimal-ui"]   
+}
